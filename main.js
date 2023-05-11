@@ -13,7 +13,7 @@ function toggleFirst() {
 
 $(document).ready(function () {
 	$("div43").toggle();
-	setInterval(toggleFirst, 20000)
+	setInterval(toggleFirst, 10000)
 });
 
 const full = document.querySelector(".full");
