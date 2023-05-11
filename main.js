@@ -25,7 +25,7 @@ previews.forEach((preview) => {
 		full.classList.add("open");
 		original.classList.add("open");
 		const originalSrc = preview.getAttribute("data-original");
-		original.src = `./media/full/${originalSrc}`;
+		original.src = `./${originalSrc}`;
 	});
 });
 
